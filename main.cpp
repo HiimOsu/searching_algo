@@ -3,7 +3,7 @@
 
 using namespace std;
 
-#comment
+//comment for new2 
 
 
 int main(){
