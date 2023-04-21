@@ -6,6 +6,6 @@
 
 bool search(Node[][COL], Node start, Node goal){
     std::priority_queue<Node> frontier;
-    frontier.push(start);
+    frontier.push(Node(start, 0));      
 }
 #endif
