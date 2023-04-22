@@ -15,5 +15,16 @@ struct Node
     friend bool operator >(const Node& lhs, const Node& rhs);
 };
 
+std::vector<node> its_neighbor(const node& it){
+    std::vector<node> v;
+    v.push_back(node(it.i + 1, it.j));
+    v.push_back(node(it.i - 1, it.j));
+    v.push_back(node(it.i, it.j + 1));
+    v.push_back(node(it.i, it.j -1));
+
+
+    return v;
+}
 
 #endif
+
